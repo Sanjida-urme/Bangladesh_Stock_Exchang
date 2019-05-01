@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/website" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+            <TextView android:textSize="37sp" android:textStyle="bold" android:textColor="#000000" android:gravity="center" android:id="@+id/textView11" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="45dp" android:text="বাংলাদেশ স্টক এক্সচেঞ্জ"/>
+            <Button android:textSize="20sp" android:textStyle="bold" android:textColor="#fff" android:id="@+id/fstB" android:background="#8e0b2c" android:layout_width="match_parent" android:layout_height="95dp" android:layout_marginLeft="10dp" android:layout_marginTop="70dp" android:layout_marginRight="10dp" android:text="স্টক এক্সচেঞ্জ"/>
+            <Button android:textSize="20sp" android:textStyle="bold" android:textColor="#fff" android:id="@+id/secB" android:background="#8e0b2c" android:layout_width="match_parent" android:layout_height="95dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:text="সর্বশেষ অগ্রগতি"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:adSize="BANNER" app:adUnitId="ca-app-pub-9372747959845606/8882459436"/>
+</RelativeLayout>
